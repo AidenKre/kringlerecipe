@@ -1,3 +1,62 @@
-.wow {
-  width: 100px;
+body {
+  background-color: #EEE3BB;
+  font-family: 'Alike Angular', serif;
+  
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5%;
+  grid-auto-rows: auto;
+}
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 1;
+  grid-row: 1;
+}
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #6E6131
+}
+h2 {
+  text-align: center;
+  font-size: 3em;
+  color: #6E6131
+}
+.aligned {
+  text-align: center;
+}
+#recipe-author {
+  font-style: italic;
+  /* opacity: 70% */
+  /* grid-column: 2; */
+  color: #6E6A59
+
+}
+#kringle-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* grid-column: 1; */
+  
+}
+p {
+  color: #8B7620;
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 2em;
+  color: #6E6131
+}
+ul {
+  font-size: 1.5em;
+}
+input, label, legend {
+  font-size: 1.5em;
+  color: #6E6131
 }
